@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Allan " content="This is a foundation website">
+<meta name="key words" content="index,sponsors,contact us,achievements" >
+<title>Foundation Page</title>
+
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, #a2e09c, #60b1f8)
+  line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+}
+
+
+.navbar {
+  background: #0b0b0b;
+  color: #5d9856;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.red-dot { background: #eb001b; }
+.orange { background: #f79e1b; margin-left: -10px; }
+
+.hero-section {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.hero-banner-content {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid orange;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: orange;
+  color: black;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: linear-gradient(90deg, #8aa7f7, #e9ace1);
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.section img {
+  width: 45%;
+  border-radius: 10px;
+}
+
+.section-text {
+  width: 50%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.red {
+  background: linear-gradient(135deg,#8d3571,#64be20);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.red img {
+  width: 200px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.grt {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.grt img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+
+.footer {
+  background:linear-gradient(135deg,#8d3571,#64be20);
+  color: white;
+  text-align: center;
+  padding: 30px;
+
+}
+
+.footer .socials span {
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+  }
+
+  .section img,
+  .section-text {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <span class="circle red-dot"></span>
+    <span class="circle orange"></span>
+    <i><h2><span>Allan Foundation</span></h2></i>
+  </div>
+  <div>☰</div>
+</header>
+
+<section class="hero-section">
+  <video class="bg-video" autoplay muted loop>
+    <source src="home.mp4">
+  </video>
+  <div class="video-overlay"></div>
+
+  <div class="hero-banner-content">
+    <h1>Transforming Lives Together❤️‍🩹🤝</h1>
+    <a href="achievements.html" class="btn">→ What we do</a>
+    
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-text">
+    <h2>Our Mission Mission Statement</h2>
+    <link 
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+<p>Our mission is to uplift vulnerable communities by providing access to basic needs, empowering individuals through education and support, and creating sustainable opportunities that inspire hope, dignity, and a better future for all..</p>
+<p>To rescue, nurture, and empower vulnerable children in Uganda through comprehensive care, education, and sustainable community development programs.</p>  
+<link>
+</div>
+  <img src="rent.img.jpeg">
+</section>
+
+<section class="section">
+  <img src="rent3.img.jpeg">
+  <div class="section-text">
+    <h2>Our Vision</h2>
+    <p>To build a world where no one is left behind—where communities are empowered, children are nurtured, and hope thrives in every heart..</p>
+    <p>We envision a Uganda where every child, regardless of their background, has access to safety, education, and opportunities to realize their full potential, creating a future generation of empowered leaders who will transform their communities.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-text">
+    <h2>Our Impact</h2>
+    <p>🍲 500+ meals provided to children and families in need<br>
+🎒 150+ children supported with school supplies and education support<br>
+👕 300+ clothing donations distributed to vulnerable communities<br>
+💧 Improved hygiene and health awareness through outreach programs<br>
+🤝 Community empowerment initiatives helping families become self-reliant.</p>
+  </div>
+  <img src="rent4.img.jpeg">
+  <a href="Sponsored-children.html" class="btn">→ Donors Page</a>
+</section>
+
+
+<section class="grt">
+  <img src="tt1.img">
+  <img src="tt4.img">
+  <img src="tt3.img">
+  <img src="tt2.img">
+  <img src="tt1.img">
+  <img src="tt.img">
+
+</section>
+
+<section class="red">
+  <h1>JOIN US TODAY</h1>
+  <img src="tt5.img">
+  <a href="what.html" class="btn">→ More</a>
+</section>
+
+
+<footer class="footer">
+  <div class="footer"><p>You can also follows on our social media handles</p>
+        <a href="https://tiktok.com" target="_blank">Tiktok</a>
+        <a href="https://facebook.com/mazima children's" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://insatgram.com" target="_blank">Instagram</a>
+        <a href="https://twitter.com" target="_blank">X</a>
+        <p>Terms and conditions apply📍</p>
+        <p>&copy; 2026 Allan foundation.| All rights reserved<br>
+        <p>Email:Allanfoundation@gmail.com</p>
+  </div>
+</footer>
+
+</body>
+</html>
